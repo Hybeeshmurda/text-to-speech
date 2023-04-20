@@ -58,7 +58,7 @@ button{
       color:azure;
       text-transform:capitalize;
       margin-bottom:40px;
-      overflow:scroll;
+/*       overflow:scroll; */
      border-radius:10px;
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    }
@@ -73,5 +73,20 @@ button{
      border:1px outset#3c5963;
      background:lightblue;
      background-attachment:scroll;
+   }
+}
+@media only screen and (min-width:400px){
+   textarea{
+      width:60%;
+      height:300px;
+      background:#3c5963;
+      border:2px solid #808080;
+      padding:10px;
+      font-size:22px;
+      color:azure;
+      text-transform:capitalize;
+      margin-bottom:40px;
+      border-radius:10px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    }
 }
